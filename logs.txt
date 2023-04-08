@@ -1,0 +1,36 @@
+commit b8eee48e137f8229d523007b758352b5dd22a43f
+Author: NikolaLichovski <nikola.licovski@gmail.com>
+Date:   Sun Apr 9 01:02:15 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 7517ec3aae4b926013d9d95fe80945a39f64f53f
+Merge: 4f167ef 6846a57
+Author: NikolaLichovski <nikola.licovski@gmail.com>
+Date:   Sun Apr 9 01:04:50 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 6846a57d67b34f4aaf110333863b11aa282e0342
+Author: NikolaLichovski <nikola.licovski@gmail.com>
+Date:   Sun Apr 9 01:00:25 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 4f167ef0b514d37deff0ccdf2c39353eda49b3c6
+Author: NikolaLichovski <nikola.licovski@gmail.com>
+Date:   Sun Apr 9 00:58:16 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 545dd5ab83a66d3e94747295cb22ac5a9aff0bba
+Author: NikolaLichovski <nikola.licovski@gmail.com>
+Date:   Sun Apr 9 00:55:12 2023 +0200
+
+    Add java class
+
+commit 4248f790be8c961b0393257815f20086afb89ff5
+Author: NikolaLichovski <nikola.licovski@gmail.com>
+Date:   Sun Apr 9 00:53:14 2023 +0200
+
+    Initial commit

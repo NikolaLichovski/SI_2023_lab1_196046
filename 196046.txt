@@ -1,0 +1,129 @@
+4.
+Make local repo:
+$ mkdir SI_2023_lab1_196046
+
+Go into repo with:
+$ cd SI_2023_lab1_196046
+
+Initialize empty Git repo:
+$ git init
+
+5.
+Connect local and remote repo:
+$ git remote add origin https://github.com/NikolaLichovski/SI_2023_lab1_196046.git
+
+6.
+Make README.md file and ADD / COMMIT it:
+$ echo Nikola Lichovski 196046 > README.md
+$ git add README.md
+$ git commit -m "Initial commit"
+
+7.
+Make SILab1.java file and ADD / COMMIT it:
+$ cd . > SILab1.java
+$ nano SILab1.java
+$ git add SILab1.java
+$ git commit -m "Add java class"
+
+8.
+Sync with remote repo:
+$ git push --all
+
+9.
+Open 3 branches bug1 ,bug2, bug3:
+$ git branch bug1
+$ git branch bug2
+$ git branch bug3
+
+10.
+Move HEAD to branch bug1:
+$ git checkout bug1
+
+11.
+Fix mistake and COMMIT:
+$ nano SILab1.java
+$ git commit SILab1.java -m "Fix wrong loop for reading"
+
+12.
+Move HEAD to branch bug2:
+$ git checkout bug2
+
+13.
+Fix mistake and COMMIT:
+$ nano SILab1.java
+$ git commit SILab1.java -m "Fix wrong condition in filterOddNumbers"
+
+14.
+Move HEAD to branch bug3:
+$ git checkout bug3
+
+15.
+Fix mistake and COMMIT:
+$ nano SILab1.java
+$ git commit SILab1.java -m "Fix method sumEvenNumbers"
+
+16.
+Sync with remote repo:
+$ git push --all
+
+17.
+Move HEAD to branch master:
+$ git checkout master
+
+18.
+Merge branch bug1 to branch master:
+$ git merge bug1
+No conflicts occurred
+fast-forward strategy is used to merge
+
+19.
+Sync all branches to remote repo:
+$ git push --all
+
+20.
+Merge branch bug2 to branch master:
+$ git merge bug2
+No conflicts occurred
+ORT ("Ostensibly Recursive's Twin") strategy is used to merge,
+which is built with recursive strategy concepts
+
+21.
+Sync all branches to remote repo:
+$ git push --all
+
+22.
+Move HEAD to branch bug3:
+$ git checkout bug3
+
+23.
+Rebase to branch master:
+$ git rebase master
+
+24.
+Move HEAD to branch master:
+$ git checkout master
+
+25.
+Merge branch bug3 to branch master:
+$ git merge bug3
+No conflicts occurred
+fast-forward strategy is used to merge
+
+26.
+Sync all branches to remote repo:
+$ git push --all --force
+
+27.
+Make logs.txt file and copy to it current git logs:
+$ git log > logs.txt
+
+Make 196046.txt file with documentation for this lab's solutions:
+$ nano 196046.txt
+
+Make add / final commit:
+$ git add .
+$ git commit -m "Final commit"
+
+28.
+Sync all branches to remote repo:
+$ git push --all
